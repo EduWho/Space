@@ -514,6 +514,7 @@ body {
 .grid-container--destination > picture /*or img (eu estou a usar picture por causa do source do webp)*/{
     grid-area:image;
     max-width: 60%;
+    align-self: start;
 }
 
 .grid-container--destination > .tab-list{
@@ -617,6 +618,7 @@ body {
     }
     .grid-container--crew > picture /*or img (eu estou a usar picture por causa do source do webp)*/{
         max-width: 80%;
+        /*grid-column: span 2; permite que a imagem saia fora da janela */
         
     }
     .grid-container--crew > .dot-indicators{
